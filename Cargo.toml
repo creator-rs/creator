@@ -18,7 +18,7 @@ creator-tools = { path = "crates/creator-tools", version = "0.4.1", optional = t
 creator-permissions = { path = "crates/creator-permissions", version = "0.4.1", optional = true }
 
 [target.'cfg(target_os = "android")'.dependencies]
-ndk-glue = "0.3"
+ndk-glue = "0.2"
 
 [patch.crates-io]
 cpal = { git = "https://github.com/creator-rs/cpal", branch = "mike-ios" }
